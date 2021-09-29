@@ -1,6 +1,6 @@
 ## wayfinder 
 An animated journey across the poetry of the land.  
-[online website](online:https://wayfinder.nfb.ca/)  
+[online website](https://wayfinder.nfb.ca/)  
 Really a nice works. Thank Authors.
 
 ## About Code
