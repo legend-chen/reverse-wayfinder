@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no, height=device-height">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">-->
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<!--    <link rel="manifest" href="./assets/meta/site.webmanifest">-->
+<!--    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">-->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="apple-mobile-web-app-title" content="WAYFINDER">
+    <title>Wayfinder</title>
+    <meta name="title" content="Wayfinder">
+    <meta name="description" content="A game of poetry and animated exploration across the land.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://wayfinder.nfb.ca/">
+    <meta property="og:title" content="Wayfinder">
+    <meta property="og:description" content="A game of poetry and animated exploration across the land.">
+    <meta property="og:image" content="./social-en-0.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://wayfinder.nfb.ca/">
+    <meta property="twitter:title" content="Wayfinder">
+    <meta property="twitter:description" content="A game of poetry and animated exploration across the land.">
+    <meta property="twitter:image" content="./social-en-0.jpg">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./main.css">
+    <style>body, html {
+        margin: 0;
+        overflow: hidden;
+        background-color: #130904
+    }
+
+    .loader, body, html {
+        width: 100%;
+        height: 100vh
+    }
+
+    .loader {
+        pointer-events: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .loader img {
+        width: 32px;
+        height: auto;
+        animation: waitAnim 1s forwards, loadAnimation 4s ease-in-out .1s infinite
+    }
+
+    .loader-text {
+        margin-top: 20px;
+        height: 25px;
+        color: hsla(0, 0%, 100%, .25);
+        animation: waitAnim 1s forwards, loadTextAnimation 4s ease-out 3s forwards
+    }
+
+    @keyframes waitAnim {
+        0% {
+            opacity: 0
+        }
+        to {
+            opacity: 0
+        }
+    }
+
+    @keyframes loadTextAnimation {
+        0% {
+            opacity: 0;
+            letter-spacing: 0
+        }
+        to {
+            opacity: 1;
+            letter-spacing: 2px
+        }
+    }
+
+    @keyframes loadAnimation {
+        0% {
+            opacity: 0
+        }
+        50% {
+            opacity: 1
+        }
+        to {
+            opacity: 0
+        }
+    }</style>
+<!--    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1722751167968328&ev=PageView&noscript=1"></noscript>-->
+<!--    <link rel="stylesheet" href="https://interactive-pip.nfb.ca/v2/app.css">-->
+    <link rel="stylesheet" href="../src.1489fb19.css">
+</head>
+<body>
+<div class="loader visible"><img src="../ico_about.png" alt="loading">
+    <div class="loader-text">loading</div>
+</div>
+<main class="content"></main>
+<!--<script>!function (e, n, t, o, a, f, c) {-->
+<!--    e.fbq || (a = e.fbq = function () {-->
+<!--        a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)-->
+<!--    }, e._fbq || (e._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], (f = n.createElement(t)).async = !0, f.src = "https://connect.facebook.net/en_US/fbevents.js", (c = n.getElementsByTagName(t)[0]).parentNode.insertBefore(f, c))-->
+<!--}(window, document, "script"), fbq("init", "1722751167968328"), fbq("track", "PageView"), window[Symbol.for("wayfinder.config")] = {-->
+<!--    lang: "en",-->
+<!--    nfbHeader: !0-->
+<!--};</script>-->
+<!--<script src="./src.8c6a3415.js"></script>-->
+<script type="module" src="./index.js"></script>
+</body>
+</html>
