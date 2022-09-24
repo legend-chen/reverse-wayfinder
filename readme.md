@@ -1,7 +1,9 @@
 ## wayfinder 
-An animated journey across the poetry of the land.  
+An animated journey across the poetry of the land.
+Really a nice works. Thank Authors.  
+
+![https://wayfinder.nfb.ca](./ScreenShot-wayfinder.jpg)
 [online website](https://wayfinder.nfb.ca/)  
-Really a nice works. Thank Authors.
 
 ## About Code
 The repo code wasn't actually original source code, which was just extracted from the original website published with source maps.  
